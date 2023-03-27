@@ -1,7 +1,63 @@
 body, ul, li, p{
     margin: 0px;
     padding: 0px;
-    list-style: none;
-    font-size: arial;
+    list-style: none; /* tira a marcação do link (bolinha por exemplo) */
+    font-size: 1.2rem;
+    font-family: arial;
+}
 
+/* Define o tamanho da imagem do logo largura */
+.logo{
+    width: 200px;
+    }
+   
+ /* Define as características da TAG ancor */
+    a{
+ text-decoration: none;    /* tira o sublinhado do link */
+    color: white;       /* Cor do texto */
+    }
+    
+    /* Define as características do header */
+    .header{
+    /* Cor de fundo */
+    background-color: rgb(0, 0, 0);
+    /* display flexível */
+    display: flex;
+    /* Organizado em linha */
+    flex-wrap: wrap;
+    /* Espaçamento entre os textos */
+    justify-content: space-between;
+    /* centralizado */
+    align-items: center;
+    /*"margem interna" */
+    padding: 20px;
+}
+
+
+.menu{
+    display: flex;
+}   
+
+/* distância entre as palavras do link */
+.menu li{ 
+    margin-left: 10px;
+}
+
+.menu li a{
+   display: block;
+   padding: 10px;
+   background-color: #74291b91;
+   /* background-color: #74291b91; */
+} 
+
+/* ********************* FAZENDO O CORPO DO SITE********************************************* */
+
+/* Ajustando o tamanho da imagem */ 
+.imagem{ 
+     width: 300px;
+     height: auto;
+}
+
+body{
+    background-color: bisque;
 }
